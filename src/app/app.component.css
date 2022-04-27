@@ -1,0 +1,33 @@
+.btn {
+    text-align: center;
+}
+
+.btnAddFormation {
+    min-width: max-content;
+    color: #ff297a;
+    margin-right: 16px;
+    background: transparent;
+    font-size: 14px;
+    padding: 15px 45px;
+    border-radius: 22px;
+    border: 1px solid #ff297a;
+    color: #fff;
+    background-color: #ff297a;
+}
+
+.btnAddFormation:hover {
+    cursor: pointer;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #00000094;
+}
+
+.parent {
+    position: relative;
+}

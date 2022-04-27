@@ -1,0 +1,11 @@
+<div>
+    <div class="btn">
+        <button (click)="openModal()" class="btnAddFormation">Add Formation</button>
+
+    </div>
+    <app-all-formations (seeAbout)="see($event)"></app-all-formations>
+    <app-see-about-formation [aboutItem]="seeFormation"></app-see-about-formation>
+</div>
+<div *ngIf="bool">
+    <app-modal [item]="bool" (closeModalFormation)="close($event)" class="modal"></app-modal>
+</div>
